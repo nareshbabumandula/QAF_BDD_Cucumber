@@ -1,0 +1,10 @@
+<suite name="QAF Test Automation" verbose="10" parallel="false">
+	<test name="BDD Test" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios" />
+	<parameter name="step.provider.pkg" value="com.qmetry.qaf.example.steps" />
+	<classes>
+	<class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"></class>
+		<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2" />
+	</classes>
+	</test>
+</suite>

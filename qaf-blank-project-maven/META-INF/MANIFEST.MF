@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: qaf-blank-project-maven
+Bundle-SymbolicName: qaf-blank-project-maven
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.qmetry.qaf.example.steps,
+ com.qmetry.qaf.example.test
